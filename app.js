@@ -121,6 +121,26 @@ console.log(donut.concat("Bob"));
 
 //12 **Create a function called getdonuts() that will display all the donuts in your array and display on your page.
 
-function getdonuts () {
-    document.write(donut);}
-     getdonuts ();
+// function getdonuts () {
+//     document.write(donut);}
+//      getdonuts ();
+
+function myFunc() {
+    var show= btn.color = "red";
+    for (i=0; i<donut.length; i++) {
+    document.getElementById("btn").innerHTML = donut.sort()  .join (":doughnut:") + show;
+    };
+    
+  
+    
+  document.getElementById("btn").innerHTML = donut.sort()  .join (":doughnut:");
+    }
+
+  for (i=0; i<donuts.length; i++) {
+    document.getElementById("btn").innerHTML = donut.sort()  .join (":doughnut:") + show;
+    };
+
+
+    
+    
+    
